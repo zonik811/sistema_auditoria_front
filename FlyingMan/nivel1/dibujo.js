@@ -17,7 +17,7 @@ function colision(obj1, obj2) {
         obj1.x + obj1.width > obj2.x &&
         obj1.y < obj2.y + obj2.height &&
         obj1.height + obj1.y > obj2.y) {
-        pause = true;
+        var pause = true;
 
     }
 }
@@ -102,7 +102,7 @@ function escenaJuego() {
     ctx.stroke();
 
     //Dibujamos el Pajaro con sus posiciones y animaciones
-    anguloRotacion = grados * Math.PI / 360;
+    var anguloRotacion = grados * Math.PI / 360;
     //ctx.translate(0,ch-720);
     ctx.translate(Pajaro.x + 20, Pajaro.y + 20);
     ctx.rotate(anguloRotacion);
@@ -127,7 +127,7 @@ function escenaJuego() {
 
     var count = 0;
     if (pause) { // si el juego esta pausado
-        count++;
+      var  count++;
         ctx.save();
         ctx.font = "40px Arial";
         ctx.textAlign = "center";
