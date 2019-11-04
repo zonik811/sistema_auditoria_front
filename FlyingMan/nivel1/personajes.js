@@ -12,11 +12,11 @@ class Rectangulo{
 //var Suelo = new Rectangulo(0,ch-100,cw,250,"#ddd");
 function resetGame(){
     buclePrincipal.mseg = 0;
-    grados = 0;
-    Pajaro = new Rectangulo(cw/6,ch/3,40,40,"#fff");
-    Suelo = new Rectangulo(0,ch-100,cw,250,"#ddd");
-    TuberiaUp = new Rectangulo(0,0,60, 0,"#000");
-    TuberiaDown = new Rectangulo(0,0,60, 0,"#fff");
+    var grados = 0;
+   var  Pajaro = new Rectangulo(cw/6,ch/3,40,40,"#fff");
+    var Suelo = new Rectangulo(0,ch-100,cw,250,"#ddd");
+    var TuberiaUp = new Rectangulo(0,0,60, 0,"#000");
+    var TuberiaDown = new Rectangulo(0,0,60, 0,"#fff");
 }
 
 function finNivel1(){
