@@ -29,7 +29,7 @@ var mouse = {
                
                 flyUp()
               
-                pause = false;
+                var pause = false;
                
                // console.log("Tiene presionado el boton pricipal : " + mouse.press1 )
             }
