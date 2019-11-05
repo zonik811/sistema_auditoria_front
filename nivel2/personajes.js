@@ -22,7 +22,7 @@ function resetGame() {
 function finNivel1() {
 
     alert("Acabaste el nivel 1");
-    window.open("preguntasConocimiento.php"), "_self"
+    window.open("preguntasConocimiento.php", "_self")
 
 }
 

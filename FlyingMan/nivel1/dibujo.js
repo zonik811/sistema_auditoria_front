@@ -125,9 +125,7 @@ function escenaJuego() {
     ctx.fillText("fps : " + buclePrincipal.fps2, 50, 50);
     ctx.fillText("seg : " + buclePrincipal.seg, 50, 60);
 
-    var count = 0;
     if (pause) { // si el juego esta pausado
-      var  count++;
         ctx.save();
         ctx.font = "40px Arial";
         ctx.textAlign = "center";
